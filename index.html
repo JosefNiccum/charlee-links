@@ -18,6 +18,9 @@
   .avatar { width:88px; height:88px; border-radius:50%; background:var(--accent); color:#fff; display:inline-flex; align-items:center; justify-content:center; font-weight:800; font-size:34px; }
   a.card { display:block; background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px 18px; margin:12px 0; text-decoration:none; color:inherit; box-shadow:0 1px 0 rgba(0,0,0,.03); }
   a.card:active { transform:scale(.995); }
+  .row { display:flex; gap:14px; align-items:center; }
+  .thumb { width:76px; height:76px; border-radius:12px; object-fit:cover; flex:0 0 76px; background:var(--line); }
+  .body { flex:1; min-width:0; }
   .title { font-weight:700; font-size:19px; }
   .sub { color:var(--muted); font-size:15px; margin-top:4px; }
   .code { display:inline-block; margin-top:8px; background:var(--accent); color:#fff; font-weight:700; padding:6px 10px; border-radius:8px; font-size:14px; letter-spacing:.04em; }
@@ -33,10 +36,14 @@
     <p>Everything from the videos. Newest first.</p>
   </header>
   <a class="card" href="https://www.awin1.com/cread.php?awinmid=127859&amp;awinaffid=3088059&amp;clickref=monvane-couch-01&amp;ued=https%3A%2F%2Fmonvane.com%2Fproducts%2Fu-shaped-modular-couch" rel="sponsored noopener" target="_blank">
-    <span class="cta">Shop →</span>
-    <div class="title">U-Shaped Modular Couch (six-seat, $749.99)</div>
-    <div class="sub">Monvane  ·  2026-09-23</div>
+    <div class="row"><img class="thumb" src="https://cdn.shopify.com/s/files/1/0802/7308/0573/files/1_621a5b79-8693-42f6-bb34-5856906fb4b6.webp?v=1784763279&amp;width=300" alt="U-Shaped Modular Couch (six-seat, $749.99)" loading="lazy">
+      <div class="body">
+        <span class="cta">Shop →</span>
+        <div class="title">U-Shaped Modular Couch (six-seat, $749.99)</div>
+        <div class="sub">Monvane  ·  2026-09-23</div>
     <span class="code">code MONAFF10 — 10% new-customer discount</span>
+      </div>
+    </div>
   </a>
 
   <footer>#ad — these are affiliate links; buying through them pays Charlee a commission at no cost to you. Codes are the store's own.</footer>
